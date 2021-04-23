@@ -1,0 +1,39 @@
+.description {
+    padding-top: 26px;
+    &__title {
+        padding: 0 12px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 28px;
+        color: #000000;
+    }
+    &__systems {
+        background: url("../img/description/description__systems.png");
+        height: 700px;
+        margin-top: 16px;
+        position: relative;
+        &_title {
+            width: 455px;
+            position: absolute;
+            left: 25px;
+            top: 22px;
+            background: white;
+            padding: 11px 14px 9px;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000000;
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+    &__btn {
+        position: relative;
+        top: 592px;
+    }
+    a {
+        text-decoration: none;
+    }
+}

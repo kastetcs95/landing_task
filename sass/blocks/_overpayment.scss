@@ -1,0 +1,35 @@
+.overpayment {
+    &__title {
+        padding: 37px 40px 0;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #000000;
+        position: relative;
+        z-index: 100;
+    }
+    &__content {
+        display: flex;
+        z-index: 0;
+    }
+    &__photo {
+        width: 50%;
+        height: 330px;
+        background: url("../img/overpayment/overpayment_bg.png");
+        background-size: 187% 187%;
+        background-position: 0% 48%;
+        margin-top: -15px;
+    }
+    &__subtitle {
+        width: 50%;
+        padding: 45px 16px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 20px;
+        color: #000000;
+        span:last-child {
+            display: block;
+            margin-top: 20px;
+        }
+    }
+}

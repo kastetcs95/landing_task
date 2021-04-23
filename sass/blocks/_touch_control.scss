@@ -1,0 +1,70 @@
+.touch_control {
+    background: url("../img/touch_control/touch_control.png");
+    height: 664px;
+    margin-top: -1px;
+    position: relative;
+    z-index: 100;
+    &__title {
+        padding: 23px 0 0 18px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        padding-left: 21px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        padding-top: 9px;
+        width: 480px;
+        height: 76px;
+        background-color: black;
+        position: absolute;
+        top:662px;
+    }
+    &__container {
+        position: absolute;
+        top: 472px;
+        left: 33px;
+        width: 414px;
+        height: 170px;
+        display: flex;
+        flex-wrap: wrap;
+        div:nth-child(3n) {
+            margin-left: 11px;
+        }
+        [data-last] {
+            margin-top: -13px;
+        }
+        div {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 15px;
+            position: relative;
+            padding-top: 23px;
+            padding-left: 71px;
+            padding-right: 15px;
+            // top: 23px;
+            // left: 69px;
+            span:first-child {
+                color: #FFD3B3;
+            }
+            span:last-child {
+                color: #FFFFFF;
+                position: absolute;
+                top: 50px;
+                left: 38px;
+                width: 102px;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+
+  
+}

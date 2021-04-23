@@ -1,0 +1,30 @@
+.noise_suppression {
+    background: url("../img/noise_suppression/noise_suppression.png");
+    height: 1084px;
+    z-index: 10;
+    margin-top: -78px;
+    position: relative;
+    &__btn {
+        padding-top: 13px;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 76px;
+        padding-top: 125px;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-top: 737px;
+        padding: 0 19px;
+    }
+    a {
+        text-decoration: none;
+    }
+}

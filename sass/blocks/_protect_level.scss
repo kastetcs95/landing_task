@@ -1,0 +1,21 @@
+.protect_level {
+    background-image: url("../img/protect_level/protect_level.png");
+    height: 480px;
+    margin-top: -50px;
+    position: relative;
+    &__title {
+        padding: 84px 17px 0;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__dust {
+        margin-top: -12px;
+    }
+    &__moisture {
+        position: absolute;
+        top: 150px;
+        left: 142px;
+    }
+}

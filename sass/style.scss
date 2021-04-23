@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 480px;
+}
+
+@import 'blocks/btn';
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/underpromo';
+@import 'blocks/description';
+@import 'blocks/overpayment';
+@import 'blocks/differences';
+@import 'blocks/protect_level';
+@import 'blocks/touch_control';
+@import 'blocks/noise_suppression';
+@import 'blocks/sound';
+@import 'blocks/bluetooth';
+@import 'blocks/powerbank';
+@import 'blocks/indicator';
+@import 'blocks/char_equip';
+@import 'blocks/reviews';
+@import 'blocks/type_order';
+@import 'blocks/main';
+@import 'blocks/order_form';

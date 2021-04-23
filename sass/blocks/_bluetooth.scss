@@ -1,0 +1,38 @@
+.bluetooth {
+    background: url("../img/bluetooth/bluetooth.png");
+    height: 777px;
+    margin-top: -3px;
+    position: relative;
+    z-index: 10;
+    &__subtitle {
+        position: absolute;
+        width: 480px;
+        height: 93px;
+        background: rgba(255, 255, 255, 0.5);
+        top: 544px;
+        
+    }
+    &__bg {
+        position: absolute;
+        width: 480px;
+        height: 67px;
+        top: 13px;
+        background: #fff;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 20px;
+        color: #000000;
+        padding: 15px 18px;
+        span {
+            font-size: 25px;
+            font-weight: 500;
+        }
+    }
+    &__btn {
+        margin-top: 95px;
+        padding-top: 24px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
